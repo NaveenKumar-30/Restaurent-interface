@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100px;
+    height: 90px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left:0;
+    right:0;
+    background-color: black;
+    box-shadow: 0 0  10px black;
+    z-index: 1000;
+}
+.name{
+    font-size:30px;
+    color: orange;
+    font-family: mv boli;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+ul{
+    font-family: mv boli;
+    list-style:none;
+}
+ul li{
+    display: inline-block;
+    margin: 0 10px;
+    margin-bottom: 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition-timing-function: linear;
+    
+}
+ul li a:hover{
+    color: orange;
+}
+.icon i{
+    font-size: 40px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.icon i:hover{
+    color: orange;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    height: 90px;
+}
+.left{
+    display: block;
+    width: 100%;
+}
+h2{
+    margin-top: 30px;
+    margin-left: 130px;
+    width: 500px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+h2 i{
+    color: orange;
+    font-family: mv boli;
+}
+p{
+    margin-top:80px;
+    padding-left:70px;
+    width:700px ;
+    font-size: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.right{
+    display: block;
+    width: 100%;
+}
+.right img{
+    margin-left: 750px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;
+    animation: rotate 10s linear infinite;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

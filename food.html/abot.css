@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    width: 100px;
+    height: 90px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left:0;
+    right:0;
+    background-color: black;
+    box-shadow: 0 0  10px black;
+    z-index: 1000;
+}
+.name{
+    font-size:30px;
+    color: orange;
+    font-family: mv boli;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ul{
+    font-family: mv boli;
+    list-style:none;
+}
+ul li{
+    display: inline-block;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition-timing-function: linear;
+    
+}
+ul li a:hover{
+    color: orange;
+}
+.icon i{
+    font-size: 40px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.icon i:hover{
+    color: orange;
+}
+.abot h1{
+    margin-left: 600px;
+    padding-top: 150px;
+    font-size: 50px;
+    color: whitesmoke;
+}
+.abot h1 span{
+    padding: 15px;
+    color: orange;
+    font-family: mv boli;
+}
+.abot p{
+    display: inline-block;
+    width: 600px;
+}
+p{
+   margin-left: 450px;
+    font-size: 20px;
+    padding: 5px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
